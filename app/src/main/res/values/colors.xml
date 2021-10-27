@@ -34,4 +34,5 @@
 
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
+    <color name="titel_miwok">#4A312A</color>
 </resources>

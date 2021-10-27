@@ -37,17 +37,17 @@ public class NumbersActivity extends AppCompatActivity {
         ArrayList<Word> words = new ArrayList<>();
         // String[] words = {"one", "two", "three", "four", "five", "six", "seven", "eigh", "nine", "ten", "one", "two", "three", "four", "five", "six", "seven", "eigh", "nine", "ten"};
 
-        words.add(new Word("one", "eins"));
-        words.add(new Word("two","zwei"));
-        words.add(new Word("three","drei"));
-        words.add(new Word("four","vier"));
-        words.add(new Word("five","fünf"));
-        words.add(new Word("six","sechs"));
-        words.add(new Word("seven","sieben"));
-        words.add(new Word("eight","acht"));
+        words.add(new Word("one", "eins", R.drawable.number_one));
+        words.add(new Word("two","zwei", R.drawable.number_two));
+        words.add(new Word("three","drei", R.drawable.number_three));
+        words.add(new Word("four","vier", R.drawable.number_four));
+        words.add(new Word("five","fünf", R.drawable.number_five));
+        words.add(new Word("six","sechs", R.drawable.number_six));
+        words.add(new Word("seven","sieben", R.drawable.number_seven));
+        words.add(new Word("eight","acht", R.drawable.number_eight));
         //ArrayList<String> wordsList = new ArrayList<String>(); // List of numbers strings
 
-        WordAdapter itemsAdapter = new WordAdapter(this, words);
+        WordAdapter itemsAdapter = new WordAdapter(this, words, R.color.category_numbers);
 
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(itemsAdapter);
