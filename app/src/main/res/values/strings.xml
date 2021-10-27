@@ -27,4 +27,6 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+    <string name="example_string_1">English</string>
+    <string name="example_string_2">Deutsch</string>
 </resources>

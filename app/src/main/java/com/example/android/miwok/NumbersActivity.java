@@ -32,7 +32,7 @@ public class NumbersActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_numbers);
+        setContentView(R.layout.word_list);
 
         ArrayList<Word> words = new ArrayList<>();
         // String[] words = {"one", "two", "three", "four", "five", "six", "seven", "eigh", "nine", "ten", "one", "two", "three", "four", "five", "six", "seven", "eigh", "nine", "ten"};
@@ -48,6 +48,7 @@ public class NumbersActivity extends AppCompatActivity {
         //ArrayList<String> wordsList = new ArrayList<String>(); // List of numbers strings
 
         WordAdapter itemsAdapter = new WordAdapter(this, words);
+
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(itemsAdapter);
         /*
