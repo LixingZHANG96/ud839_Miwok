@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "883978666477",
+    "firebase_url": "https://exp1-b1b54-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "exp1-b1b54",
+    "storage_bucket": "exp1-b1b54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883978666477:android:fba9d3cf9bb373aa6527e4",
+        "android_client_info": {
+          "package_name": "de.tanzstudio_garching.tsg_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883978666477-euaqrauevcrrpbgunt027g6lhqt2vv8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuGhcsOmQr6a8C9bkZPtKL_K-jIeZcF3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883978666477-euaqrauevcrrpbgunt027g6lhqt2vv8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

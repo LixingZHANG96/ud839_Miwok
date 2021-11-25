@@ -37,7 +37,7 @@ public class NumbersActivity extends AppCompatActivity {
         ArrayList<Word> words = new ArrayList<>();
         // String[] words = {"one", "two", "three", "four", "five", "six", "seven", "eigh", "nine", "ten", "one", "two", "three", "four", "five", "six", "seven", "eigh", "nine", "ten"};
 
-        words.add(new Word("one", "eins", R.drawable.number_one));
+        words.add(new Word("one", "eins", R.drawable.number_one, R.raw.audio_eins));
         words.add(new Word("two","zwei", R.drawable.number_two));
         words.add(new Word("three","drei", R.drawable.number_three));
         words.add(new Word("four","vier", R.drawable.number_four));
